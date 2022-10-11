@@ -22,12 +22,14 @@ body {
 
   .body {
     padding-top: 64px;
+    padding-bottom: 80px;
     background-color: #1f2937;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
     gap:32px;
+    
 
   }
 
@@ -35,7 +37,7 @@ body {
     font-size: 24px;
     color:#f9faf8;
     font-weight: 800;
-    margin-left: 144px;
+    margin-left: 144px; 
   }
 
   .header-links {
@@ -100,4 +102,125 @@ body {
     color:white;
     padding-top: 8px;
     padding-bottom: 8px;
+  }
+
+
+  .info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding:16px;
+    padding-bottom: 36px;
+  }
+
+  .information{
+    margin-left: 144px;
+    margin-right: 144px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .box {
+    height: 175px;
+    width: 175px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 25px;
+    flex-shrink: 0;
+
+  }
+
+  .infocontainer{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+
+  }
+
+  .card {
+    flex:2;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 18px;
+    color: #36454F;
+    font-weight: normal;
+  }
+
+
+
+  .quote {
+    background-color: #e5e7eb;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+
+  .quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .quote-sign {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+  }
+
+
+  .calltoaction{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 144px;
+    margin-right: 144px;
+    border-radius: 25px;
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 128px;
+  }
+
+  .cta-container {
+    padding: 36px 128px 36px 128px;
+
+  }
+
+  .cta-header {
+    color: white;
+    font-weight: 500;
+    font-size: 36px;
+  }
+
+  .cta-text {
+    color: lightgray;
+    font-size: 16px;
+  }
+
+
+  .signuptwo {
+    border-color: white;
+    border-style: solid;
+    height: 35px; 
+    width: 150px;
+
+  }
+
+  .footer {
+    background-color: #1f2937;
+    color:white;
+    font-size: 24px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
